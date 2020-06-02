@@ -7,7 +7,7 @@ var rs = require('readline-sync')
 
 function ehPrimo(numero) {
    for (i = 2; i < numero; i++){
-       if(numero % 2 == 0){
+       if(numero % i == 0){
            return "NÃO É PRIMO"
        }
    }
