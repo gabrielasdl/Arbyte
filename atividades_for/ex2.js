@@ -23,5 +23,3 @@ if (valorIni < valorFin) {
 } else {
     console.log("\nValor incompativel")
 }
-
-console.log("\nFinal da contagem")

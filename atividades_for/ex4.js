@@ -1,4 +1,4 @@
-// Ler o nome de um aluno e suas duas notas A e B, e após calcular a média ponderada entre estas notas (A tem 30% do peso do
+// Ler o nome de 5 alunos e suas duas notas A e B, e após calcular a média ponderada entre estas notas (A tem 30% do peso do
 //grau final e B tem 70% do peso). Repetir este procedimento para uma turma composta por cinco alunos, usando o comando For.
 // Exemplo de tela de saída:
 // Entre com o nome do aluno: João da Silva
@@ -13,5 +13,5 @@ var aluno = rs.question("\nInforme o nome do aluno: ")
 var nota1 = rs.questionFloat("Informe a primeira nota: ")
 var nota2 = rs.questionFloat("Informe a segunda nota: ")
 var media = ((nota1 * 0.30) + (nota2 * 0.70))
-console.log("\nAluna(o):",aluno, "\nMédia:", media.toFixed(1))
+console.log("\nAluna(o):",aluno, "\nMédia:", media.toFixed(2))
 }
